@@ -121,7 +121,6 @@ public class Function {
 				System.out.println("Tạo thành công Employee");
 				return;
 			default:
-				System.out.println("hello word");
 				break;// ??
 			}
 		}
