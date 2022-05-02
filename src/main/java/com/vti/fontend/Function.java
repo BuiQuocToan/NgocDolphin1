@@ -99,7 +99,6 @@ public class Function {
 		while (true) {
 			System.out.println("1: Tạo Admin. 2: Tạo Employee.");
 			System.out.println("Bạn chọn: ");
-//			Scanner sc = new Scanner(System.in); //remove if not use
 			int choose = ScannerUtils.inputInt("Kí tự vừa nhập chưa đúng. Vui lòng nhập lại!");
 			switch (choose) { // recommend user if else role - user admin
 			case 1:
@@ -122,6 +121,7 @@ public class Function {
 				System.out.println("Tạo thành công Employee");
 				return;
 			default:
+				System.out.println("hello word");
 				break;// ??
 			}
 		}
